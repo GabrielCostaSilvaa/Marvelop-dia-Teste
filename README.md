@@ -41,7 +41,7 @@ Foram desenvolvidos 9 cenários, que serão listados abaixo, e o resultado dos t
 8. Acessar página do carrinho - **Produtos não aparecem lá e algumas vezes não foi possível sair da página de carrinho**;
 9. Acessar seção "perfil" e subseções "Pedidos"  e "Sobre" - **É possível acessar a seção de "perfil" e acessar as seções de "Pedidos" e "Sobre"**.
 
-##Sites para identificar setup utilizado para desenvolvimento:
+# Sites para identificar setup utilizado para desenvolvimento:
 1. https://maestro.mobile.dev/
 2. https://www.java.com/pt-BR/download/manual.jsp
 3. https://code.visualstudio.com/download
