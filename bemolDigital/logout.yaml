@@ -1,0 +1,15 @@
+appId:  Marvelopédia
+---
+- launchApp
+- tapOn: "E-mail"
+- inputText: "gabrielcostasilva250@gmail.com"
+- back
+- tapOn: "Senha"
+- inputText: "*senha*"
+- back
+- tapOn: "Login"
+
+- tapOn: "Perfil"
+- tapOn: "Logout"
+- assertVisible: "SIM"
+- tapOn: "SIM"

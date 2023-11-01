@@ -1,0 +1,14 @@
+appId:  Marvelopédia
+---
+- launchApp
+- tapOn: "Crie uma conta"
+- tapOn: "Email"
+- inputText: "*email*"
+- back
+- tapOn: "Senha"
+- inputText: "*senha*"
+- back
+- tapOn: "Repita Senha"
+- inputText: "*senha*"
+- back
+- tapOn: "Cadastrar"

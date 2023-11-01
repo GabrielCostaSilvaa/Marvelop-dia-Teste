@@ -1,0 +1,21 @@
+appId:  Marvelopédia
+---
+- launchApp
+- tapOn: "E-mail"
+- inputText: "gabrielcostasilva250@gmail.com"
+- back
+- tapOn: "Senha"
+- inputText: "*senha*"
+- back
+- tapOn: "Login"
+
+- tapOn: "Perfil"
+- assertVisible: "Pedidos"
+- tapOn: "Pedidos"
+- back
+
+- tapOn: "Perfil"
+- assertVisible: "Sobre"
+- tapOn: "Sobre"
+- back
+

@@ -1,0 +1,44 @@
+appId:  Marvelopédia
+---
+- launchApp
+- tapOn: "E-mail"
+- inputText: "gabrielcostasilva250@gmail.com"
+- back
+- tapOn: "Senha"
+- inputText: "*senha*"
+- back
+- tapOn: "Login"
+
+- assertVisible: "Fantasticvc Four by Dan Slott Vol. 1 (Trade Paperback)"
+- tapOn: "Fantasticvc Four by Dan Slott Vol. 1 (Trade Paperback)"
+- assertVisible: "+"
+- tapOn: "+"
+- assertVisible: "1"
+- assertVisible: "-"
+- tapOn: "-"
+- assertVisible: "0"
+- assertVisible: "+"
+- tapOn: "+"
+- assertVisible: "1"
+- assertVisible: "Adicionar R$ 39,99"
+- tapOn: "Fazer Pagamento"
+
+- tapOn: "Número do cartão"
+- inputText: "*Número do cartão*"
+- assertVisible: "Pagamento"
+
+- tapOn: "Nome impresso"
+- inputText: "*Nome impresso"
+- assertVisible: "Pagamento"
+
+- tapOn: "Validade"
+- inputText: "Validade"
+- assertVisible: "Pagamento"
+
+- tapOn: "Código de Seg"
+- inputText: "*Código de Seg"
+- assertVisible: "Pagamento"
+
+- assertVisible: "Pagar agora!"
+- assertVisible: "Compra finalizada!"
+- tapOn: "Ok"

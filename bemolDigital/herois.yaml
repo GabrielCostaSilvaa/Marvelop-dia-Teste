@@ -1,0 +1,19 @@
+appId:  Marvelopédia
+---
+- launchApp
+- tapOn: "E-mail"
+- inputText: "*E-mail*"
+- back
+- tapOn: "Senha"
+- inputText: "*senha*"
+- back
+- tapOn: "Login"
+
+- assertVisible: "Heróis"
+- tapOn: "Pesquise um herói"
+- inputText: "Iron Man"
+- assertVisible: "Heróis"
+- tapOn: "Heróis"
+- assertVisible: "Iron Men"
+- tapOn: "Iron Men"
+- assertVisible: "Iron Men"
