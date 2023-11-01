@@ -17,12 +17,14 @@ Mervelopédia é um aplicativo Android que tem como foco a venda de quadrinhos d
 11. Tela de heróis (Composta pela barra de pesquisa de herois e herois que aparecem na página inicial da tela de quadrinhos);
 12. Tela de herói especifico (Após pesquisar um herói especifico e entrar na página do herói e selecinar um herói que aparece na página inicial da tela de herói).
 
+Após identificar as páginas e features que o software apresentava, foram desenvolvidos os testes. Foram desenvolvidos 9 testes automatizados, que cobriram todas as páginas e features identicados. Alguns testes cobriaram mais de uma feature e mais de uma página.
+
 ## Desenvolvimento 
 Foi utilizada a ferramenta Maestro para automação dos testes de aplicativo em Android no device: Samsung A50.
 
 #### Ferramentas utilizadas:
-1. Maestro;
-2. Java;
+1. Framework: Maestro;
+2. Linguagem: Java;
 3. VSCODE;
 4. Sistema Operacional: Ubuntu.
 
@@ -39,5 +41,9 @@ Foram desenvolvidos 9 cenários, que serão listados abaixo, e o resultado dos t
 8. Acessar página do carrinho - **Produtos não aparecem lá e algumas vezes não foi possível sair da página de carrinho**;
 9. Acessar seção "perfil" e subseções "Pedidos"  e "Sobre" - **É possível acessar a seção de "perfil" e acessar as seções de "Pedidos" e "Sobre"**.
 
-##
+##Sites para identificar setup utilizado para desenvolvimento:
+1. https://maestro.mobile.dev/
+2. https://www.java.com/pt-BR/download/manual.jsp
+3. https://code.visualstudio.com/download
+4. https://ubuntu.com/wsl
 
